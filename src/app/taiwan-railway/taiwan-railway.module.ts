@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { TaiwanRailwayRoutingModule } from './taiwan-railway-routing.module';
 import { TaiwanRailwayComponent } from './taiwan-railway.component';
+import { MapComponent } from './map/map.component';
 
 
 @NgModule({
   declarations: [
-    TaiwanRailwayComponent
+    TaiwanRailwayComponent,
+    MapComponent
   ],
   imports: [
     CommonModule,
