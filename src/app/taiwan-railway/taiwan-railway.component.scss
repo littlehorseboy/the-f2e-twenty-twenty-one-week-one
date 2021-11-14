@@ -3,28 +3,53 @@
   height: 100%;
   background-image: url(/assets/bg.jpg);
   position: relative;
+  z-index: -1;
 
   .bg--left-top {
     position: absolute;
     top: 0;
     left: 0;
+    pointer-events: none;
+    z-index: -1;
   }
 
   .bg--right-bottom {
     position: absolute;
     bottom: 0;
     right: 0;
+    pointer-events: none;
+    z-index: -1;
   }
 
   .bg--right-top {
     position: absolute;
     top: 0;
     right: 0;
+    pointer-events: none;
+    z-index: -1;
   }
 
   .bg--left-bottom {
     position: absolute;
     bottom: 0;
     left: 0;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+    height: 100%;
+
+    header.topbar {
+      display: flex;
+      align-items: center;
+    }
+
+    main.main {
+
+    }
   }
 }
