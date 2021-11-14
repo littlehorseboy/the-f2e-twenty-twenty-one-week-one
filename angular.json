@@ -132,6 +132,10 @@
               "devServerTarget": "the-f2e-twenty-twenty-one-week-one:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
