@@ -41,12 +41,46 @@
     width: 100%;
     height: 100%;
 
-    header.topbar {
+    .topbar {
       display: flex;
       align-items: center;
+      padding-top: 24px;
+
+      > img {
+        margin-right: 4px;
+      }
+
+      &__left {
+        margin-right: 8px;
+      }
+
+      &__title {
+        line-height: 0.8;
+        font-weight: bold;
+      }
+
+      &__subtitle {
+        font-size: 75%;
+      }
+
+      &__right {
+        font-size: 90%;
+      }
     }
 
     main.main {
+      .map__search {
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+
+      .map__container {
+        background-color: #FFFADD;
+        padding: 8px;
+        border: 1px solid #E5E5E5;
+        box-shadow: 6px 6px 0px 0px #133B38BF;
+      }
+
       .attractions {
         height: 500px;
         background-color: white;

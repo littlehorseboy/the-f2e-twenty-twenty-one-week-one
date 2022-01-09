@@ -17,18 +17,32 @@
   <div class="container">
     <header class="topbar">
       <img src="./assets/green-small-taiwan.png">
-      <div>
-        <div>台灣鐵路小遊</div>
-        <div>Taiwan Rail Travel Helper</div>
+      <div class="topbar__left">
+        <div class="topbar__title">台 灣 鐵 路 小 遊</div>
+        <small class="topbar__subtitle">Taiwan Rail Travel Helper</small>
       </div>
-      <div>鐵道旅行者的小幫手</div>
+      <div class="topbar__right">鐵道旅行者的小幫手</div>
     </header>
 
     <main class="main grid">
       <div class="col-12 md:col-6">
-        <div>瀏覽</div>
-        <div>
+        <div class="map__search">
+          瀏覽
+          <select>
+            <option>台北</option>
+          </select>
+          站附近
+          <select>
+            <option>1000</option>
+          </select>
+          公尺內的地圖
+        </div>
+        <div class="map__container">
           <app-map></app-map>
+
+          <div>100230臺北市中正區黎明里北平西路 3 號</div>
+          <div>02-23713558</div>
+          <div>查看時刻表</div>
         </div>
         <div>
           <div>Copy Right: 台灣鐵路小遊</div>
